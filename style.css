@@ -107,27 +107,27 @@ body {
 .nbt-box {
     display: flex;
     justify-content: center;
-    align-items: center; /* Zentriert Bild und Text */
+    align-items: center;
     text-align: center;
 }
 .nbt-text {
     display: flex;
-    flex-direction: column; /* Ordnet Bild und Text untereinander */
+    flex-direction: column; 
     align-items: center;
-    margin-top: 10px; /* Abstand zwischen Bild und Text */
+    margin-top: 10px;
     padding: 50px;
 }
 .nbt-img {
-    width: 128px; /* Breite der Boxen */
-    height: 128px; /* Höhe der Boxen */
-    margin-bottom: 10px; /* Abstand zwischen Bild und nächster kasten */    
+    width: 128px; 
+    height: 128px; 
+    margin-bottom: 10px;     
 }
 .nbt-undertext {
     font-family: "raleway", sans-serif;
     font-size: 24px;
     font-weight: regular;
     color: #675e54;
-    padding-top: 16px; /* Abstand zwischen Bild und Text */
+    padding-top: 16px;
 }
 .nbt-text span {
     padding-top: 16px;
@@ -150,28 +150,28 @@ body {
     font-weight: bold;
     font-family: "raleway", sans-serif;
 }
-.box-one {
+        .box-one {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 56px;
 }
 .r-img {
-    width: 352px; /* Breite der Boxen */
-    height: 352px; /* Höhe der Boxen */
-    margin-bottom: 10px; /* Abstand zwischen Bild und nächster kasten */    
+    width: 352px; 
+    height: 352px; 
+    margin-bottom: 10px;
     margin-right: 80px;
 }
 .r-img-two {
-    width: 352px; /* Breite der Boxen */
-    height: 352px; /* Höhe der Boxen */
-    margin-bottom: 10px; /* Abstand zwischen Bild und nächster kasten */
+    width: 352px; 
+    height: 352px; 
+    margin-bottom: 10px;
     margin-left: 80px;
 }
 .full-text {
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: left;
     padding-bottom: 56px;
 }
 .head {
@@ -211,7 +211,7 @@ ul {
     align-items: center;
     text-align: center;
     padding-bottom: 56px;
-}
+        }
 .findus-container {
     display: flex;
     justify-content: center;
