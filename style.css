@@ -181,23 +181,10 @@ td {
     font-size: 56px;
     font-weight: bold;
     color: black;
+    padding-bottom: 16px;
 }
-ul {
-    list-style-type: none; 
-    font-family: "raleway", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    color: black;
-    display: flex;
-}
-.ul-text {
-    justify-content: space-between;
-    font-family: "raleway", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #675e54;
-    padding-left: 0%;
-    margin: 0;
+.tr-list {
+    padding-bottom: 8px;
 }
 .box-two {
     display: flex;
