@@ -1,14 +1,18 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
 }
+
 .top-container {
     background-image: url(./img/hero_bg.jpg);
     background-size: cover;
+    background-position: bottom;
     height: 100vh;
 }
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -16,10 +20,12 @@ body {
     padding: 20px;
     font-family: "raleway", sans-serif;
 }
+
 .sakura-logo {
     width: 64px;
     height: 64px;
 }
+
 .div-top {
     display: flex;
     justify-content: space-between;
@@ -27,6 +33,7 @@ body {
     margin: 0;
     color: white;
 }
+
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -34,16 +41,19 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .nav-links a {
     margin: 16px;
     text-decoration: none;
     font-size: 24px;
     color: white;
 }
+
 .nav-links a:hover {
     color: #FFB6C1;
     text-decoration: underline;
 }
+
 .button a{
     display: flex;
     align-items: center;
@@ -58,15 +68,18 @@ body {
     gap: 10px;
     padding: 5px;
 }
+
 .button a:hover {
     background-color: #FFB6C1;
     color: #9F0908;
     border: 2px solid #9F0908;
 }
+
 .phone {
     width: 24px;
     height: 24px;
 }
+
 .text-container {
     display: flex;
     justify-content: center;
@@ -74,17 +87,20 @@ body {
     text-align: center;
     color: white;
 }
+
 .sr {
-    font-family: "raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 96px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 .best-ramen {
     font-family: "raleway", sans-serif;
     font-size: 24px;
-    font-weight: regular;
+    font-weight: 400;
 }
+
 .howto-container {
     display: flex;
     justify-content: center;
@@ -105,12 +121,17 @@ body {
     font-family: "raleway", sans-serif;
 } 
 
+.how {
+    margin: 0;
+}
+
 .nbt-box {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 .nbt-text {
     display: flex;
     flex-direction: column; 
@@ -118,29 +139,34 @@ body {
     margin-top: 10px;
     padding: 50px;
 }
+
 .nbt-img {
     width: 128px; 
     height: 128px; 
     margin-bottom: 10px;     
 }
+
 .nbt-undertext {
-    font-family: "raleway", sans-serif;
+    font-family: "economica", sans-serif;
     font-size: 24px;
     font-weight: regular;
     color: #675e54;
     padding-top: 16px;
 }
+
 .nbt-text span {
     padding-top: 16px;
     font-size: 56px; 
     font-weight: bold; 
     color: black; 
 }
+
 .third-container {
     background-image: url(./img/section_our_menu_bg.jpg);
     background-size: cover;
     padding: 120px;
 }
+
 .our-menu-text {
     display: flex;
     justify-content: center;
@@ -152,6 +178,7 @@ body {
     font-weight: bold;
     font-family: "raleway", sans-serif;
 }
+
 .box-one {
     display: flex;
     align-items: center;
@@ -159,21 +186,25 @@ body {
     padding-left: 160px;
     padding-right: 160px;
 }
+
 .r-img {
     width: 352px; 
     height: 352px; 
 }
+
 table {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 80px;
 }
+
 td {
     font-family: "raleway", sans-serif;
     font-size: 32px;
     font-weight: bold;
     color: #675e54;
 }
+
 .head {
     width: 352px;
     display: flex;
@@ -184,9 +215,11 @@ td {
     color: black;
     padding-bottom: 16px;
 }
+
 .tr-list {
     padding-bottom: 8px;
 }
+
 .box-two {
     display: flex;
     flex-direction: row-reverse;
@@ -196,11 +229,13 @@ td {
     padding-left: 160px;
     padding-right: 160px;
 }
+
 .table-two {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-right: 80px;
 }
+
 .findus-container {
     display: flex;
     justify-content: center;
@@ -209,6 +244,7 @@ td {
     padding-top: 120px;
     padding-bottom: 64px;
 }
+
 .findus-text {
     display: flex;
     justify-content: center;
@@ -220,16 +256,19 @@ td {
     font-weight: bold;
     font-family: "raleway", sans-serif;
 }
+
 .map-marker {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .map-marker-img {
     width: 24px;
     height: 24px;
     padding-right: 5px;
 }
+
 .adress {
     font-family: "raleway", sans-serif;
     font-size: 24px;
@@ -237,6 +276,7 @@ td {
     color: black;
     padding-left: 5px;
 }
+
 .footer-container {
     background-color: black;
     display: flex;
@@ -244,10 +284,12 @@ td {
     align-items: center;
     height: 144px;
 }
+
 .footer-logo {
     width: auto;
     height: 44px;
 }
+
 .social-media {
     display: flex;
     justify-content: space-around;
@@ -255,6 +297,7 @@ td {
     padding: 0;
     margin: 0;
 }
+
 .footer-pic {
     width: 44px;
     height: 44px;
