@@ -114,7 +114,6 @@ body {
 .howto-text {
     display: flex;
     justify-content: center;
-    align-items: center;
     color: #9F0908;
     font-size: 80px;
     font-weight: bold;
@@ -123,6 +122,7 @@ body {
 
 .how {
     margin: 0;
+    text-align: center;
 }
 
 .nbt-box {
@@ -206,7 +206,7 @@ td {
 }
 
 .head {
-    width: 352px;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     font-family: "economica", sans-serif;
@@ -272,7 +272,6 @@ td {
 .adress {
     font-family: "raleway", sans-serif;
     font-size: 24px;
-    font-weight: regular;
     color: black;
     padding-left: 5px;
 }
@@ -310,4 +309,253 @@ iframe{
     width: 100%;
     margin-bottom: -5px;
     height: 350px;
+}
+
+@media (max-width: 1200px) {
+
+    .top-container {
+        height: 80vh;
+    }
+    .nav-links> a {
+        display: none;
+    }
+
+    .phone {
+        width: 32px;
+        height: 32px;
+    }
+
+    .button a {
+        font-size: 32px;
+        padding: 5px 10px;
+    }
+
+    .sr {
+        font-size: 48px;
+    }
+
+    .best-ramen {
+        font-size: 24px;
+    }
+    
+    .howto-container {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .how {
+        font-size: 54px;
+        text-align: center;
+    }
+
+    .nbt-box {
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .nbt-text {
+        padding: 32px;
+    }
+
+    .nbt-img {
+        width: 140px; 
+        height: 140px; 
+    }
+    .nbt-text span {
+        padding: 16px;
+        font-size: 40px;
+    }
+    .third-container {
+        padding: 64px;
+    }
+
+    .our-menu-text {
+        font-size: 54px;
+        text-align: center;
+        padding-bottom: 54px;
+    }
+
+    .box-one {
+        justify-content: center;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .r-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    table {
+        padding-left: 24px;
+    }
+
+    .head {
+        font-size: 32px;
+        width: 200px;
+    }
+
+    td {
+        font-size: 24px;
+    }
+
+    .box-two {
+        flex-direction: row;
+        padding-left: 80px;
+        padding-right: 80px;
+        justify-content: center;
+    }
+
+    .table-two {
+        padding-left: 24px;
+        padding-right: 0%  ;
+    }
+
+    .findus-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .findus-text {
+        font-size: 54px;
+    }
+
+    .map-marker-img{
+        height: 20px;
+        width: 20px;
+        padding: 0;
+    }
+    .adress {
+        font-size: 20px;
+    }
+    .footer-logo {
+        height: 40px;
+    }
+
+    .footer-pic {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .top-container {
+        height: 50vh;
+    }
+
+    .nav-links> a {
+        display: none;
+    } 
+
+    .phone {
+        width: 16px;
+        height: 16px;
+    }
+    .button a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .sr {
+        font-size: 32px;
+    }
+
+    .best-ramen {
+            font-size: 16px;
+        }
+    
+    .howto-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .how {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .nbt-box {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nbt-text {
+        padding: 24px;
+    }
+
+    .nbt-img {
+        width: 100px; 
+        height: 100px; 
+    }
+    .nbt-text span {
+        padding: 16px;
+        font-size: 32px;
+    }
+
+    .third-container {
+        padding: 50px 32px;
+    }
+
+    .our-menu-text {
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 32px;
+    }
+
+    .box-one {
+        padding: 0;
+    }
+
+    .r-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    table {
+        padding-left: 16px;
+    }
+
+    .head {
+        font-size: 24px;
+        width: 180px;
+    }
+
+    td {
+        font-size: 16px;
+    }
+
+    .box-two {
+        flex-direction: row;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .table-two {
+        padding-left: 16px;
+        padding-right: 0%  ;
+    }
+
+    .findus-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .findus-text {
+        font-size: 32px;
+    }
+
+    .map-marker-img{
+        height: 24px;
+        padding: 0;
+    }
+    .adress {
+        font-size: 16px;
+    }
+    .footer-logo {
+        height: 24px;
+    }
+
+    .footer-pic {
+        width: 24px;
+        height: 24px;
+    }
 }
