@@ -149,7 +149,6 @@ body {
 .nbt-undertext {
     font-family: "economica", sans-serif;
     font-size: 24px;
-    font-weight: regular;
     color: #675e54;
     padding-top: 16px;
 }
@@ -321,17 +320,17 @@ iframe{
     }
 
     .phone {
-        width: 32px;
-        height: 32px;
+        width: 24px;
+        height: 24px;
     }
 
     .button a {
-        font-size: 32px;
+        font-size: 24px;
         padding: 5px 10px;
     }
 
     .sr {
-        font-size: 48px;
+        font-size: 62px;
     }
 
     .best-ramen {
@@ -361,10 +360,12 @@ iframe{
         width: 140px; 
         height: 140px; 
     }
+
     .nbt-text span {
-        padding: 16px;
         font-size: 40px;
+        padding-top: 8px;
     }
+
     .third-container {
         padding: 64px;
     }
@@ -438,9 +439,19 @@ iframe{
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 374px) {
     .top-container {
         height: 50vh;
+    }
+
+    .nav {
+        height: 64px;
+        justify-content: space-between;
+    }
+
+    .sakura-logo {
+        width: 40px;
+        height: 40px;
     }
 
     .nav-links> a {
@@ -451,23 +462,26 @@ iframe{
         width: 16px;
         height: 16px;
     }
+
     .button a {
         font-size: 16px;
         padding: 5px 10px;
     }
 
     .sr {
-        font-size: 32px;
+        font-size: 44px;
     }
 
     .best-ramen {
             font-size: 16px;
-        }
+    }
     
     .howto-container {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        padding-inline: 16px;
+        margin-top: 72px;
+        margin-bottom: 72px;
     }
+
     .how {
         font-size: 32px;
         text-align: center;
@@ -476,10 +490,12 @@ iframe{
     .nbt-box {
         flex-direction: column;
         padding: 0;
+        width: 112px;
     }
 
     .nbt-text {
-        padding: 24px;
+        padding-top: 32px;
+        margin: 0;
     }
 
     .nbt-img {
@@ -487,46 +503,57 @@ iframe{
         height: 100px; 
     }
     .nbt-text span {
-        padding: 16px;
         font-size: 32px;
     }
 
     .third-container {
-        padding: 50px 32px;
+        padding-inline: 16px;
     }
 
     .our-menu-text {
-        font-size: 32px;
+        font-size: 40px;
         text-align: center;
-        padding-bottom: 32px;
+        padding-top: 72px;
     }
 
     .box-one {
         padding: 0;
+        margin: 0;
+        flex-direction: column;
     }
 
     .r-img {
-        width: 100px;
-        height: 100px;
+        width: 352px;
+        height: 352px;
+        padding-bottom: 24px;
+        padding-top: 32px;
     }
 
     table {
-        padding-left: 16px;
+        padding-top: 24px;
+        padding-inline: 0px;
+        width: 100%;
     }
 
     .head {
-        font-size: 24px;
-        width: 180px;
+        font-size: 32px;
+        padding-bottom: 16px;
     }
 
     td {
-        font-size: 16px;
+        font-size: 24px;
+        padding-bottom: 8px;
     }
 
+    .price {
+        display: flex;
+        justify-content: flex-end;
+    }
     .box-two {
         flex-direction: row;
         padding: 0;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
     .table-two {
@@ -535,27 +562,42 @@ iframe{
     }
 
     .findus-container {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-inline: 16px;
+        padding-top: 72px;
+        padding-bottom: 40px;
     }
 
     .findus-text {
-        font-size: 32px;
+        font-size: 40px;
     }
 
     .map-marker-img{
-        height: 24px;
+        height: 16px;
+        width: 16px;
         padding: 0;
     }
     .adress {
         font-size: 16px;
     }
-    .footer-logo {
-        height: 24px;
+
+    .footer-container {
+        height: 86px;
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 16px;
     }
 
+    .footer-logo {
+        display: none;
+    }
+
+    .sakuraa-logo {
+        height: 40px;
+    }
     .footer-pic {
-        width: 24px;
-        height: 24px;
+        margin: 0;
+        width: 32px;
+        height: 32px;
+        display: flex;
     }
 }
