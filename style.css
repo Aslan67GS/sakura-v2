@@ -310,27 +310,37 @@ iframe{
     height: 350px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
 
     .top-container {
-        height: 80vh;
+        height: 100vh;
+        padding-inline: 24px;
+        padding: 0;
     }
+
+    .nav {
+        height: 112px;
+        justify-content: space-between;
+    }
+
     .nav-links> a {
         display: none;
     }
 
     .phone {
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
     }
 
     .button a {
-        font-size: 24px;
+        font-size: 20px;
         padding: 5px 10px;
     }
 
     .sr {
-        font-size: 62px;
+        font-size: 72px;
+        margin: 0%;
+        margin-top: 50px;
     }
 
     .best-ramen {
@@ -338,27 +348,25 @@ iframe{
     }
     
     .howto-container {
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 96px;
+        margin-bottom: 96px;
+        padding: 0;
     }
 
     .how {
-        font-size: 54px;
+        font-size: 64px;
         text-align: center;
     }
 
-    .nbt-box {
-        flex-direction: column;
-        padding: 24px;
-    }
-
     .nbt-text {
-        padding: 32px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 48px;
     }
 
     .nbt-img {
-        width: 140px; 
-        height: 140px; 
+        width: 112px; 
+        height: 112px; 
     }
 
     .nbt-text span {
@@ -366,25 +374,27 @@ iframe{
         padding-top: 8px;
     }
 
-    .third-container {
-        padding: 64px;
-    }
-
     .our-menu-text {
         font-size: 54px;
         text-align: center;
-        padding-bottom: 54px;
+        padding-bottom: 48px;
     }
 
+    .third-container {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        padding-left: 0;
+        padding-right: 0;
+    }
     .box-one {
         justify-content: center;
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 0%;
+        padding-right: 0%;
     }
 
     .r-img {
-        width: 140px;
-        height: 140px;
+        width: 352px;
+        height: 352px;
     }
 
     table {
@@ -398,27 +408,30 @@ iframe{
 
     td {
         font-size: 24px;
+        padding-bottom: 8px;
     }
 
     .box-two {
-        flex-direction: row;
-        padding-left: 80px;
-        padding-right: 80px;
+        flex-direction: row-reverse;
         justify-content: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0%;
+        padding-right: 0;
     }
 
     .table-two {
-        padding-left: 24px;
-        padding-right: 0%  ;
+        padding-right: 24px;
+        padding-left: 0;
     }
 
     .findus-container {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 96px;
+        padding-bottom: 48px;
     }
 
     .findus-text {
-        font-size: 54px;
+        font-size: 64px;
     }
 
     .map-marker-img{
@@ -429,10 +442,24 @@ iframe{
     .adress {
         font-size: 20px;
     }
-    .footer-logo {
-        height: 40px;
+
+    #location {
+        height: 50vh;
     }
 
+    .footer-container {
+        height: 144px;
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 24px;
+    }
+    .footer-logo {
+        height: 44px;
+    }
+
+    .sakuraa-logo{
+        display: none;
+    }
     .footer-pic {
         width: 40px;
         height: 40px;
@@ -441,7 +468,7 @@ iframe{
 
 @media (max-width: 374px) {
     .top-container {
-        height: 50vh;
+        height: 100vh;
     }
 
     .nav {
@@ -470,6 +497,8 @@ iframe{
 
     .sr {
         font-size: 44px;
+        margin: 0%;
+        margin-top: 50px;
     }
 
     .best-ramen {
@@ -477,9 +506,11 @@ iframe{
     }
     
     .howto-container {
+        padding-top: 0;
+        padding-bottom: 0;
         padding-inline: 16px;
         margin-top: 72px;
-        margin-bottom: 72px;
+        margin-bottom: 40px;
     }
 
     .how {
@@ -507,7 +538,9 @@ iframe{
     }
 
     .third-container {
+        padding-top: 0;
         padding-inline: 16px;
+        padding-bottom: 72px;
     }
 
     .our-menu-text {
@@ -592,10 +625,12 @@ iframe{
     }
 
     .sakuraa-logo {
+        display: flex;
         height: 40px;
     }
     .footer-pic {
         margin: 0;
+        padding: 5px;
         width: 32px;
         height: 32px;
         display: flex;
