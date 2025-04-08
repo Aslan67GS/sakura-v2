@@ -191,7 +191,7 @@ body {
     height: 352px; 
 }
 
-table {
+.table {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 80px;
@@ -222,7 +222,6 @@ td {
 .box-two {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
     align-items: center;
     padding-bottom: 56px;
     padding-left: 160px;
@@ -283,6 +282,9 @@ td {
     height: 144px;
 }
 
+.sakuraa-logo {
+    display: none;
+}
 .footer-logo {
     width: auto;
     height: 44px;
@@ -308,6 +310,134 @@ iframe{
     width: 100%;
     margin-bottom: -5px;
     height: 350px;
+}
+@media (max-width: 1450px) {
+    .top-container {
+        height: 100vh;
+    }
+
+    .nav {
+        height: 112px;
+        justify-content: space-between;
+    }
+
+    .nav-links> a {
+        display: none;
+    } 
+
+    .phone {
+        width: 20px;
+        height: 20px;
+    }
+
+    .button a {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    .sr {
+        font-size: 72px;
+        margin: 0%;
+        margin-top: 50px;
+    }
+
+    .best-ramen {
+            font-size: 24px;
+    }
+    
+    .howto-container {
+        margin-top: 96px;
+        margin-bottom: 96px;
+        padding: 0;
+    }
+
+    .how {
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .nbt-text span {
+        font-size: 32px;
+    }
+
+    .head {
+        font-size: 32px;
+        width: 200px;
+    }
+
+    td {
+        font-size: 24px;
+        padding-bottom: 8px;
+    };
+}
+@media (max-width: 1010px) {
+    .top-container {
+        height: 100vh;
+    }
+
+    .nav {
+        height: 112px;
+        justify-content: space-between;
+    }
+
+    .nav-links> a {
+        display: none;
+    } 
+
+    .phone {
+        width: 20px;
+        height: 20px;
+    }
+
+    .button a {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    .sr {
+        font-size: 72px;
+        margin: 0%;
+        margin-top: 50px;
+    }
+
+    .best-ramen {
+            font-size: 24px;
+    }
+    
+    .howto-container {
+        margin-top: 96px;
+        margin-bottom: 96px;
+        padding: 0;
+    }
+
+    .how {
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .box-one {
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .box-two {
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .table {
+        padding-left: 0;
+        padding-right: 0%;
+    }
+
+    .table-two {
+        padding-left: 0;
+        padding-right: 0%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -370,7 +500,7 @@ iframe{
     }
 
     .nbt-text span {
-        font-size: 40px;
+        font-size: 32px;
         padding-top: 8px;
     }
 
@@ -412,12 +542,19 @@ iframe{
     }
 
     .box-two {
-        flex-direction: row-reverse;
+        flex-direction: column;
         justify-content: center;
         padding-top: 0;
-        padding-bottom: 0;
+        padding-bottom: 56px;
         padding-left: 0%;
         padding-right: 0;
+    }
+
+    .box-three {
+        justify-content: center;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 0;
     }
 
     .table-two {
@@ -466,7 +603,73 @@ iframe{
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 680px) {
+    .top-container {
+        height: 100vh;
+    }
+
+    .nav {
+        height: 112px;
+        justify-content: space-between;
+    }
+
+    .nav-links> a {
+        display: none;
+    } 
+
+    .phone {
+        width: 20px;
+        height: 20px;
+    }
+
+    .button a {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    .sr {
+        font-size: 54px;
+        margin: 0%;
+        margin-top: 50px;
+    }
+
+    .best-ramen {
+            font-size: 24px;
+    }
+    
+    .howto-container {
+        margin-top: 96px;
+        margin-bottom: 96px;
+        padding: 0;
+    }
+
+    .how {
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .nbt-box {
+        flex-direction: column;
+        padding: 0;
+        width: 112px;
+    }
+    
+    .box-one {
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    .box-two {
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+@media (max-width: 565px) {
     .top-container {
         height: 100vh;
     }
@@ -496,9 +699,10 @@ iframe{
     }
 
     .sr {
-        font-size: 44px;
+        font-size: 32px;
         margin: 0%;
         margin-top: 50px;
+        margin-bottom: 10px;
     }
 
     .best-ramen {
@@ -556,14 +760,13 @@ iframe{
     }
 
     .r-img {
-        width: 352px;
-        height: 352px;
+        width: 270px;
+        height: 270px;
         padding-bottom: 24px;
         padding-top: 32px;
     }
 
     table {
-        padding-top: 24px;
         padding-inline: 0px;
         width: 100%;
     }
@@ -590,7 +793,8 @@ iframe{
     }
 
     .table-two {
-        padding-left: 16px;
+        margin-top: 0;
+        padding-left: 0;
         padding-right: 0%  ;
     }
 
@@ -610,7 +814,7 @@ iframe{
         padding: 0;
     }
     .adress {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .footer-container {
@@ -634,5 +838,57 @@ iframe{
         width: 32px;
         height: 32px;
         display: flex;
+    }
+}
+@media (max-width: 320px) {
+    .top-container {
+        height: 100vh;
+    }
+
+    .nav {
+        height: 56px;
+        justify-content: space-between;
+    }
+
+    .sakura-logo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .nav-links> a {
+        display: none;
+    } 
+
+    .phone {
+        width: 16px;
+        height: 16px;
+    }
+
+    .button a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .sr {
+        font-size: 32px;
+        margin: 0%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .best-ramen {
+        font-size: 16px;
+    }
+
+    .r-img {
+        width: 240px;
+        height: 240px;
+        padding-bottom: 24px;
+        padding-top: 32px;
+    }
+
+    td {
+        font-size: 16px;
+        padding-bottom: 8px;
     }
 }
